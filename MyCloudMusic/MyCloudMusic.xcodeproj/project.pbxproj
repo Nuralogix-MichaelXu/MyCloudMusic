@@ -13,6 +13,7 @@
 		8420C68128B20D26008AE525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8420C67F28B20D26008AE525 /* Main.storyboard */; };
 		8420C68328B20D2A008AE525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8420C68228B20D2A008AE525 /* Assets.xcassets */; };
 		8420C68628B20D2A008AE525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8420C68428B20D2A008AE525 /* LaunchScreen.storyboard */; };
+		84BA42AE28B232B60010BBD1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42AD28B232B60010BBD1 /* SplashViewController.swift */; };
 		89A1ED6B87179965E943D47B /* Pods_MyCloudMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4A4D24CD3049D78F1EDB6 /* Pods_MyCloudMusic.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		8420C68228B20D2A008AE525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8420C68528B20D2A008AE525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8420C68728B20D2A008AE525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BA42AD28B232B60010BBD1 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		A06403CD7303B01445A3B044 /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		CC01226412184DC29D89E132 /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 			children = (
 				8420C67928B20D26008AE525 /* AppDelegate.swift */,
 				8420C67B28B20D26008AE525 /* SceneDelegate.swift */,
+				84BA42AD28B232B60010BBD1 /* SplashViewController.swift */,
 				8420C67D28B20D26008AE525 /* ViewController.swift */,
 				8420C67F28B20D26008AE525 /* Main.storyboard */,
 				8420C68228B20D2A008AE525 /* Assets.xcassets */,
@@ -209,6 +212,7 @@
 				8420C67E28B20D26008AE525 /* ViewController.swift in Sources */,
 				8420C67A28B20D26008AE525 /* AppDelegate.swift in Sources */,
 				8420C67C28B20D26008AE525 /* SceneDelegate.swift in Sources */,
+				84BA42AE28B232B60010BBD1 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
