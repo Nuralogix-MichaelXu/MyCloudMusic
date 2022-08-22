@@ -18,7 +18,7 @@ class SplashViewController: UIViewController {
     }
     
     func next() {
-        SceneDelegate.shared.toGuard()
+        SceneDelegate.shared.toGuide()
     }
 
     /*

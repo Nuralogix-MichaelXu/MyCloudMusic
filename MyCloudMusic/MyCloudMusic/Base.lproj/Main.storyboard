@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="-23" y="64"/>
         </scene>
-        <!--Guard View Controller-->
+        <!--Guide View Controller-->
         <scene sceneID="K6Q-cN-jRz">
             <objects>
-                <viewController storyboardIdentifier="Guard" id="UDu-fM-DqP" customClass="GuardViewController" customModule="MyCloudMusic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Guard" id="UDu-fM-DqP" customClass="GuideViewController" customModule="MyCloudMusic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fcu-Rb-g4K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,7 +84,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LzG-tb-sA6">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W0s-UR-qnA" userLabel="HeaderView">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W0s-UR-qnA" userLabel="HeaderView" customClass="YJBannerView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="718"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
@@ -186,9 +186,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bannerView" destination="W0s-UR-qnA" id="CGd-x9-2E9"/>
                         <outlet property="enterBtn" destination="1FH-Sp-BFs" id="czD-B5-ggp"/>
                         <outlet property="footerContainerView" destination="GGi-Qw-Urk" id="Y5u-k4-v6C"/>
-                        <outlet property="headerContainerView" destination="W0s-UR-qnA" id="c3O-IM-lQU"/>
                         <outlet property="registerBtn" destination="Lut-bN-xRo" id="iHs-YH-zxz"/>
                     </connections>
                 </viewController>

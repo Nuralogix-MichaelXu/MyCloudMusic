@@ -7,5 +7,6 @@ target 'MyCloudMusic' do
 
   # Pods for MyCloudMusic
   pod 'Moya', '~> 14.0.0-alpha.1'
+  pod 'MBProgressHUD', '~> 1.1.0'
   
 end

@@ -7,8 +7,8 @@
 
 import UIKit
 
-class GuardViewController: UIViewController {
-    @IBOutlet weak var headerContainerView: UIView!
+class GuideViewController: UIViewController {
+    @IBOutlet weak var bannerView: YJBannerView!
     @IBOutlet weak var footerContainerView: UIView!
     
     @IBOutlet weak var registerBtn: UIButton!
@@ -17,7 +17,7 @@ class GuardViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        initBannerView()
     }
     
     override func viewDidLayoutSubviews() {

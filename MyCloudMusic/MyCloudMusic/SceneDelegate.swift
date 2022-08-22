@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
     }
     
-    func toGuard() {
+    func toGuide() {
         let mainStory = UIStoryboard(name: "Main", bundle: nil)
         let guardController = mainStory.instantiateViewController(withIdentifier: "Guard")
         window?.rootViewController = guardController

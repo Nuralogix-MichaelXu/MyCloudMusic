@@ -18,8 +18,18 @@
 		84B95EA228B280D800B4450C /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EA128B280D800B4450C /* ColorExtension.swift */; };
 		84B95EA428B3335D00B4450C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EA328B3335D00B4450C /* LoginViewController.swift */; };
 		84B95EA628B3336B00B4450C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EA528B3336B00B4450C /* HomeViewController.swift */; };
+		84B95ECD28B3406A00B4450C /* UIView+YJBannerViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EB828B3406A00B4450C /* UIView+YJBannerViewExt.m */; };
+		84B95ECE28B3406A00B4450C /* YJBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EBA28B3406A00B4450C /* YJBannerView.m */; };
+		84B95ECF28B3406A00B4450C /* YJHollowPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EBE28B3406A00B4450C /* YJHollowPageControl.m */; };
+		84B95ED028B3406A00B4450C /* YJAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EBF28B3406A00B4450C /* YJAbstractDotView.m */; };
+		84B95ED128B3406A00B4450C /* YJAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EC028B3406A00B4450C /* YJAnimatedDotView.m */; };
+		84B95ED228B3406A00B4450C /* YJBannerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84B95EC528B3406A00B4450C /* YJBannerView.bundle */; };
+		84B95ED328B3406A00B4450C /* YJBannerViewCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EC728B3406A00B4450C /* YJBannerViewCollectionView.m */; };
+		84B95ED428B3406A00B4450C /* YJBannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EC828B3406A00B4450C /* YJBannerViewCell.m */; };
+		84B95ED528B3406A00B4450C /* YJBannerViewFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B95ECB28B3406A00B4450C /* YJBannerViewFooter.m */; };
+		84B95ED728B3709A00B4450C /* GuideViewController_Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B95ED628B3709A00B4450C /* GuideViewController_Banner.swift */; };
 		84BA42AE28B232B60010BBD1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42AD28B232B60010BBD1 /* SplashViewController.swift */; };
-		84BA42B028B2692C0010BBD1 /* GuardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42AF28B2692C0010BBD1 /* GuardViewController.swift */; };
+		84BA42B028B2692C0010BBD1 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42AF28B2692C0010BBD1 /* GuideViewController.swift */; };
 		89A1ED6B87179965E943D47B /* Pods_MyCloudMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4A4D24CD3049D78F1EDB6 /* Pods_MyCloudMusic.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +48,27 @@
 		84B95EA128B280D800B4450C /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		84B95EA328B3335D00B4450C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		84B95EA528B3336B00B4450C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84B95EA728B33B4D00B4450C /* MyCloudMusic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyCloudMusic-Bridging-Header.h"; sourceTree = "<group>"; };
+		84B95EB828B3406A00B4450C /* UIView+YJBannerViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJBannerViewExt.m"; sourceTree = "<group>"; };
+		84B95EB928B3406A00B4450C /* UIView+YJBannerViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YJBannerViewExt.h"; sourceTree = "<group>"; };
+		84B95EBA28B3406A00B4450C /* YJBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBannerView.m; sourceTree = "<group>"; };
+		84B95EBD28B3406A00B4450C /* YJAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJAnimatedDotView.h; sourceTree = "<group>"; };
+		84B95EBE28B3406A00B4450C /* YJHollowPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJHollowPageControl.m; sourceTree = "<group>"; };
+		84B95EBF28B3406A00B4450C /* YJAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJAbstractDotView.m; sourceTree = "<group>"; };
+		84B95EC028B3406A00B4450C /* YJAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJAnimatedDotView.m; sourceTree = "<group>"; };
+		84B95EC128B3406A00B4450C /* YJHollowPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJHollowPageControl.h; sourceTree = "<group>"; };
+		84B95EC228B3406A00B4450C /* YJAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJAbstractDotView.h; sourceTree = "<group>"; };
+		84B95EC328B3406A00B4450C /* YJBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBannerView.h; sourceTree = "<group>"; };
+		84B95EC528B3406A00B4450C /* YJBannerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YJBannerView.bundle; sourceTree = "<group>"; };
+		84B95EC728B3406A00B4450C /* YJBannerViewCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBannerViewCollectionView.m; sourceTree = "<group>"; };
+		84B95EC828B3406A00B4450C /* YJBannerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBannerViewCell.m; sourceTree = "<group>"; };
+		84B95EC928B3406A00B4450C /* YJBannerViewFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBannerViewFooter.h; sourceTree = "<group>"; };
+		84B95ECA28B3406A00B4450C /* YJBannerViewCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBannerViewCollectionView.h; sourceTree = "<group>"; };
+		84B95ECB28B3406A00B4450C /* YJBannerViewFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBannerViewFooter.m; sourceTree = "<group>"; };
+		84B95ECC28B3406A00B4450C /* YJBannerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBannerViewCell.h; sourceTree = "<group>"; };
+		84B95ED628B3709A00B4450C /* GuideViewController_Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController_Banner.swift; sourceTree = "<group>"; };
 		84BA42AD28B232B60010BBD1 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		84BA42AF28B2692C0010BBD1 /* GuardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardViewController.swift; sourceTree = "<group>"; };
+		84BA42AF28B2692C0010BBD1 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		A06403CD7303B01445A3B044 /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		CC01226412184DC29D89E132 /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +114,7 @@
 		8420C67828B20D26008AE525 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				84B95EAE28B33EEE00B4450C /* Vendor */,
 				84B95EA028B27A5000B4450C /* Extension */,
 				84B95E9928B2769E00B4450C /* Util */,
 				84B95E9828B2765C00B4450C /* Controller */,
@@ -93,6 +123,7 @@
 				8420C67F28B20D26008AE525 /* Main.storyboard */,
 				8420C68228B20D2A008AE525 /* Assets.xcassets */,
 				8420C68428B20D2A008AE525 /* LaunchScreen.storyboard */,
+				84B95EA728B33B4D00B4450C /* MyCloudMusic-Bridging-Header.h */,
 				8420C68728B20D2A008AE525 /* Info.plist */,
 			);
 			path = MyCloudMusic;
@@ -102,7 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				84BA42AD28B232B60010BBD1 /* SplashViewController.swift */,
-				84BA42AF28B2692C0010BBD1 /* GuardViewController.swift */,
+				84BA42AF28B2692C0010BBD1 /* GuideViewController.swift */,
+				84B95ED628B3709A00B4450C /* GuideViewController_Banner.swift */,
 				84B95EA328B3335D00B4450C /* LoginViewController.swift */,
 				84B95EA528B3336B00B4450C /* HomeViewController.swift */,
 			);
@@ -125,6 +157,78 @@
 				84B95EA128B280D800B4450C /* ColorExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		84B95EAE28B33EEE00B4450C /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				84B95EB628B3406A00B4450C /* YJBannerView */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		84B95EB628B3406A00B4450C /* YJBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				84B95EC328B3406A00B4450C /* YJBannerView.h */,
+				84B95EBA28B3406A00B4450C /* YJBannerView.m */,
+				84B95EB728B3406A00B4450C /* Tools */,
+				84B95EBB28B3406A00B4450C /* PageControls */,
+				84B95EC428B3406A00B4450C /* Resource */,
+				84B95EC628B3406A00B4450C /* Views */,
+			);
+			path = YJBannerView;
+			sourceTree = "<group>";
+		};
+		84B95EB728B3406A00B4450C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				84B95EB828B3406A00B4450C /* UIView+YJBannerViewExt.m */,
+				84B95EB928B3406A00B4450C /* UIView+YJBannerViewExt.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		84B95EBB28B3406A00B4450C /* PageControls */ = {
+			isa = PBXGroup;
+			children = (
+				84B95EBC28B3406A00B4450C /* YJHollowPageControl */,
+			);
+			path = PageControls;
+			sourceTree = "<group>";
+		};
+		84B95EBC28B3406A00B4450C /* YJHollowPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				84B95EBD28B3406A00B4450C /* YJAnimatedDotView.h */,
+				84B95EBE28B3406A00B4450C /* YJHollowPageControl.m */,
+				84B95EBF28B3406A00B4450C /* YJAbstractDotView.m */,
+				84B95EC028B3406A00B4450C /* YJAnimatedDotView.m */,
+				84B95EC128B3406A00B4450C /* YJHollowPageControl.h */,
+				84B95EC228B3406A00B4450C /* YJAbstractDotView.h */,
+			);
+			path = YJHollowPageControl;
+			sourceTree = "<group>";
+		};
+		84B95EC428B3406A00B4450C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				84B95EC528B3406A00B4450C /* YJBannerView.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		84B95EC628B3406A00B4450C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84B95EC728B3406A00B4450C /* YJBannerViewCollectionView.m */,
+				84B95EC828B3406A00B4450C /* YJBannerViewCell.m */,
+				84B95EC928B3406A00B4450C /* YJBannerViewFooter.h */,
+				84B95ECA28B3406A00B4450C /* YJBannerViewCollectionView.h */,
+				84B95ECB28B3406A00B4450C /* YJBannerViewFooter.m */,
+				84B95ECC28B3406A00B4450C /* YJBannerViewCell.h */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C9BC27F9C97E9737A1A476A2 /* Pods */ = {
@@ -170,6 +274,7 @@
 				TargetAttributes = {
 					8420C67528B20D26008AE525 = {
 						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -199,6 +304,7 @@
 				8420C68628B20D2A008AE525 /* LaunchScreen.storyboard in Resources */,
 				8420C68328B20D2A008AE525 /* Assets.xcassets in Resources */,
 				8420C68128B20D26008AE525 /* Main.storyboard in Resources */,
+				84B95ED228B3406A00B4450C /* YJBannerView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,16 +357,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B95ED328B3406A00B4450C /* YJBannerViewCollectionView.m in Sources */,
+				84B95ED728B3709A00B4450C /* GuideViewController_Banner.swift in Sources */,
+				84B95ECD28B3406A00B4450C /* UIView+YJBannerViewExt.m in Sources */,
+				84B95ED028B3406A00B4450C /* YJAbstractDotView.m in Sources */,
 				84B95EA428B3335D00B4450C /* LoginViewController.swift in Sources */,
+				84B95ECE28B3406A00B4450C /* YJBannerView.m in Sources */,
 				8420C67A28B20D26008AE525 /* AppDelegate.swift in Sources */,
+				84B95ED128B3406A00B4450C /* YJAnimatedDotView.m in Sources */,
 				8420C67C28B20D26008AE525 /* SceneDelegate.swift in Sources */,
 				84B95E9D28B2786000B4450C /* ViewUtil.swift in Sources */,
 				84B95EA228B280D800B4450C /* ColorExtension.swift in Sources */,
 				84B95EA628B3336B00B4450C /* HomeViewController.swift in Sources */,
 				84B95E9F28B27A4900B4450C /* ViewExtension.swift in Sources */,
+				84B95ED528B3406A00B4450C /* YJBannerViewFooter.m in Sources */,
 				84B95E9B28B276C500B4450C /* Constant.swift in Sources */,
-				84BA42B028B2692C0010BBD1 /* GuardViewController.swift in Sources */,
+				84BA42B028B2692C0010BBD1 /* GuideViewController.swift in Sources */,
+				84B95ECF28B3406A00B4450C /* YJHollowPageControl.m in Sources */,
 				84BA42AE28B232B60010BBD1 /* SplashViewController.swift in Sources */,
+				84B95ED428B3406A00B4450C /* YJBannerViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +523,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FTLFWDHKRA;
@@ -426,6 +542,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.michael.MyCloudMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyCloudMusic/MyCloudMusic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -437,6 +555,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FTLFWDHKRA;
@@ -455,6 +574,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.michael.MyCloudMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyCloudMusic/MyCloudMusic-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
