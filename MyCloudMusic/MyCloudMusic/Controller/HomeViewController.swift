@@ -1,25 +1,20 @@
 //
-//  SplashViewController.swift
+//  HomeViewController.swift
 //  MyCloudMusic
 //
-//  Created by xuqingqing on 2022/8/21.
+//  Created by xuqingqing on 2022/8/22.
 //
 
 import UIKit
 
-class SplashViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            self.next()
-        }
+
+        // Do any additional setup after loading the view.
     }
     
-    func next() {
-        SceneDelegate.current().toGuard()
-    }
 
     /*
     // MARK: - Navigation

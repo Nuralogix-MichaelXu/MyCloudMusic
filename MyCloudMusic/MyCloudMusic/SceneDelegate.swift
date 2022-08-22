@@ -11,10 +11,31 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
     
+    open class var shared: Self {
+        get {
+            var windowScene: UIScene?
+            UIApplication.shared.connectedScenes.forEach { scene in
+                windowScene = scene
+            }
+            return windowScene!.delegate as! Self
+        }
+    }
     
     func toGuard() {
         let mainStory = UIStoryboard(name: "Main", bundle: nil)
-        let guardController = mainStory.instantiateViewController(withIdentifier: "guard")
+        let guardController = mainStory.instantiateViewController(withIdentifier: "Guard")
+        window?.rootViewController = guardController
+    }
+    
+    func toLogin() {
+        let mainStory = UIStoryboard(name: "Main", bundle: nil)
+        let guardController = mainStory.instantiateViewController(withIdentifier: "Login")
+        window?.rootViewController = guardController
+    }
+    
+    func toHome() {
+        let mainStory = UIStoryboard(name: "Main", bundle: nil)
+        let guardController = mainStory.instantiateViewController(withIdentifier: "Home")
         window?.rootViewController = guardController
     }
     
@@ -54,15 +75,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
-}
-
-
-extension SceneDelegate {
-    class func current() -> Self {
-        var windowScene: UIScene?
-        UIApplication.shared.connectedScenes.forEach { scene in
-            windowScene = scene
-        }
-        return windowScene!.delegate as! Self
-    }
 }

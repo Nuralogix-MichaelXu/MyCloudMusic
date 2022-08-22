@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		8420C67A28B20D26008AE525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420C67928B20D26008AE525 /* AppDelegate.swift */; };
 		8420C67C28B20D26008AE525 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420C67B28B20D26008AE525 /* SceneDelegate.swift */; };
-		8420C67E28B20D26008AE525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420C67D28B20D26008AE525 /* ViewController.swift */; };
 		8420C68128B20D26008AE525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8420C67F28B20D26008AE525 /* Main.storyboard */; };
 		8420C68328B20D2A008AE525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8420C68228B20D2A008AE525 /* Assets.xcassets */; };
 		8420C68628B20D2A008AE525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8420C68428B20D2A008AE525 /* LaunchScreen.storyboard */; };
+		84B95E9B28B276C500B4450C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B95E9A28B276C500B4450C /* Constant.swift */; };
+		84B95E9D28B2786000B4450C /* ViewUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B95E9C28B2786000B4450C /* ViewUtil.swift */; };
+		84B95E9F28B27A4900B4450C /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B95E9E28B27A4900B4450C /* ViewExtension.swift */; };
+		84B95EA228B280D800B4450C /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EA128B280D800B4450C /* ColorExtension.swift */; };
+		84B95EA428B3335D00B4450C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EA328B3335D00B4450C /* LoginViewController.swift */; };
+		84B95EA628B3336B00B4450C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B95EA528B3336B00B4450C /* HomeViewController.swift */; };
 		84BA42AE28B232B60010BBD1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42AD28B232B60010BBD1 /* SplashViewController.swift */; };
+		84BA42B028B2692C0010BBD1 /* GuardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42AF28B2692C0010BBD1 /* GuardViewController.swift */; };
 		89A1ED6B87179965E943D47B /* Pods_MyCloudMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4A4D24CD3049D78F1EDB6 /* Pods_MyCloudMusic.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,12 +28,18 @@
 		8420C67628B20D26008AE525 /* MyCloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8420C67928B20D26008AE525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8420C67B28B20D26008AE525 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8420C67D28B20D26008AE525 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8420C68028B20D26008AE525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8420C68228B20D2A008AE525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8420C68528B20D2A008AE525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8420C68728B20D2A008AE525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B95E9A28B276C500B4450C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		84B95E9C28B2786000B4450C /* ViewUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtil.swift; sourceTree = "<group>"; };
+		84B95E9E28B27A4900B4450C /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		84B95EA128B280D800B4450C /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		84B95EA328B3335D00B4450C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84B95EA528B3336B00B4450C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		84BA42AD28B232B60010BBD1 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		84BA42AF28B2692C0010BBD1 /* GuardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardViewController.swift; sourceTree = "<group>"; };
 		A06403CD7303B01445A3B044 /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		CC01226412184DC29D89E132 /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,16 +85,46 @@
 		8420C67828B20D26008AE525 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				84B95EA028B27A5000B4450C /* Extension */,
+				84B95E9928B2769E00B4450C /* Util */,
+				84B95E9828B2765C00B4450C /* Controller */,
 				8420C67928B20D26008AE525 /* AppDelegate.swift */,
 				8420C67B28B20D26008AE525 /* SceneDelegate.swift */,
-				84BA42AD28B232B60010BBD1 /* SplashViewController.swift */,
-				8420C67D28B20D26008AE525 /* ViewController.swift */,
 				8420C67F28B20D26008AE525 /* Main.storyboard */,
 				8420C68228B20D2A008AE525 /* Assets.xcassets */,
 				8420C68428B20D2A008AE525 /* LaunchScreen.storyboard */,
 				8420C68728B20D2A008AE525 /* Info.plist */,
 			);
 			path = MyCloudMusic;
+			sourceTree = "<group>";
+		};
+		84B95E9828B2765C00B4450C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84BA42AD28B232B60010BBD1 /* SplashViewController.swift */,
+				84BA42AF28B2692C0010BBD1 /* GuardViewController.swift */,
+				84B95EA328B3335D00B4450C /* LoginViewController.swift */,
+				84B95EA528B3336B00B4450C /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84B95E9928B2769E00B4450C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				84B95E9A28B276C500B4450C /* Constant.swift */,
+				84B95E9C28B2786000B4450C /* ViewUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		84B95EA028B27A5000B4450C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84B95E9E28B27A4900B4450C /* ViewExtension.swift */,
+				84B95EA128B280D800B4450C /* ColorExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		C9BC27F9C97E9737A1A476A2 /* Pods */ = {
@@ -209,9 +251,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8420C67E28B20D26008AE525 /* ViewController.swift in Sources */,
+				84B95EA428B3335D00B4450C /* LoginViewController.swift in Sources */,
 				8420C67A28B20D26008AE525 /* AppDelegate.swift in Sources */,
 				8420C67C28B20D26008AE525 /* SceneDelegate.swift in Sources */,
+				84B95E9D28B2786000B4450C /* ViewUtil.swift in Sources */,
+				84B95EA228B280D800B4450C /* ColorExtension.swift in Sources */,
+				84B95EA628B3336B00B4450C /* HomeViewController.swift in Sources */,
+				84B95E9F28B27A4900B4450C /* ViewExtension.swift in Sources */,
+				84B95E9B28B276C500B4450C /* Constant.swift in Sources */,
+				84BA42B028B2692C0010BBD1 /* GuardViewController.swift in Sources */,
 				84BA42AE28B232B60010BBD1 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
